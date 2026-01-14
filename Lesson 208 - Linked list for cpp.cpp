@@ -93,7 +93,6 @@ void LinkedList::Insert(int index, int x)
 			p = p->next;
 		t->next = p->next;
 		p->next = t;
-		p->next = t;
 	}
 }
 int LinkedList::Delete(int index)
